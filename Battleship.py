@@ -7,7 +7,7 @@ for x in range(-1,5):
 
 def print_board(board):
     for row in range(0, len(board)):
-        print("        ", end="", flush=True)
+        print("+++++++++", end="", flush=True)
         for column in range(0, len(board[row])):
             sleep(.1)
             print(board[row][column], end="", flush=True)
